@@ -20,6 +20,7 @@ body{
     height: 300px;
     padding: 20px;
     margin-left: 20px;
+    margin-bottom:20px;
 }
 
 p {
@@ -43,7 +44,6 @@ p {
     /* border-bottom:2px solid #19021a; */
     align-content: center;
     background-color: #100520;
-    border-radius: 10px;
     padding-left: 20px;
     margin-left: 30px;
     color: #fff;
@@ -113,7 +113,9 @@ a:hover {
         grid-template-columns: 1fr;
     }
 
-    .handles {
+    .handles, .footer {
         min-width: 100vw;
     }
+    body { 
+        width:700px;
 }
