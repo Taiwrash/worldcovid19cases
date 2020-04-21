@@ -1,5 +1,5 @@
 window.addEventListener('load', ()=>{
-    const api = `https://corona.lmao.ninja/countries`;
+    const api = `https://corona.lmao.ninja/v2/countries`;
     fetch(api)
         .then(response =>{
             return response.json();
